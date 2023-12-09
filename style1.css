@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    position: relative;
+}
+.nabar-top{
+    background: rgb(4, 77, 41);
+    width: 100%;
+    top:0px;
+}
+.navbar .navbar-brand{
+    color:black !important;
+    border:2px solid gold;
+    background:white;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0px 20px;
+}
+.navbar .navbar-brand{
+    color:white;
+}
+.customnabar .nav-item .nav-link{
+    color:rgb(255, 251, 0);
+    font-size: 20px;
+    padding:0px 20px;
+}
+.customnabar .nav-item .nav-link:hover{
+    color:rgb(0, 255, 34);
+    background: white;
+    border-radius:20px;
+    font-size: 20px;
+    padding:0px 20px;
+}
+.customnabar button{
+    color:white;
+    padding:5px 20px;
+    border-radius: 20px; 
+    background: green;
+}
+.top-card-Home{
+    padding:180px 0px;
+    height: 100%;
+    /* background-image: url('/images/backgr.jpg');
+    background-repeat: no-repeat; */
+    background-size: cover;
+    background: black;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-evenly   ;
+}
+.top-card-Home .btn{
+    padding:10px 10px;
+    width:150px;
+    border-radius: 20px;
+    border:2px solid white;
+    background: burlywood;
+    color:black !important;
+}
+.top-card-Home .btn:hover{
+    padding:10px 10px;
+    width:150px;
+    border-radius: 20px;
+    border:2px solid white;
+    background: burlywood;
+}
+.top-card-Home a{
+    color:white !important;
+}
+  .card-home-right img{
+        margin: 50px auto; /* Center the image */
+        animation:  animate__slideInRight; 
+  }
+.top-card-Home h1,h3,h2,p{
+    color:white;
+}
+.card-home p{
+    font-size: 20px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-contain .img-fluid{
+    border:2px solid white;
+    border-radius: 30px;
+}
+.card-home-left h3 mark{
+    background: yellow;
+    border-radius: 20px;
+    padding:20px;
+    margin:10px 0px;
+    display:inline-block;
+    width:100%;
+    border:5px solid white;
+}
+.card-home-left h3 mark:hover{
+    background: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding:20px;
+    margin:10px 0px;
+    display:inline-block;
+    width:100%;
+}
+.card-home-left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-home-right{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slide{
+    border:2px solid rgb(90, 77, 5);
+    border-radius:15px;
+    height: 100%;
+    width: 100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide h2{
+    color:black;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+}
+.slide h5,h6{
+    color:black;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+}
+.slide i{
+    color:rgb(240, 70, 70);
+    font-size: 50px;
+    padding:20px;
+    border:3px solid white;
+    border-radius:50%;
+}
+.slide:hover{
+    background: rgb(2, 17, 80);
+}
+.slide:hover h6{
+    color:white;
+}
+.slide:hover h1{
+    color:white;
+}
+.slide:hover h2{
+    color:white;
+}
+.slide:hover h5{
+    color:white;
+}
+.slide:hover i{
+    background: white;
+}
+.education-card-top{
+    padding:120px 0px;
+    background: rgb(255, 174, 0);
+}
+.progress{
+    width:100%;
+    height: 20px;
+}
+.education-card-top h1{
+    color:white;
+    text-decoration: underline;
+    text-align: center;
+    padding:20px 0px;
+}
+.skills-card-top{
+    padding:100px 0px;
+    background: rgb(3, 70, 58);
+}
+.skills-card-top h1{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+}
+.skills-card-top .row{
+    padding:50px 0px;
+}
+.skill-col-left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+}
+.Activities-card-top{
+    background: rgb(255, 153, 153);
+    padding:100px 0px;
+}
+.Activities-card-top h1{
+    text-align: center;
+    color:white;
+    text-decoration:underline;
+}
+.act-col-right{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 153, 255);
+    border-radius: 20px;
+    width: 100%;
+}
+.act-col-right:hover{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 153, 255);
+    border-radius: 20px;
+    width: 100%;
+    border:5px dashed red
+}
+.act-col-right h3{
+    color:gold;
+    padding:0px 20px;
+}
+.about-card-top{
+    padding:0px 0px;
+    margin:0px 0px;
+    background: rgb(10, 10, 10);
+}
+.about-card-top h3{
+    color: blue;
+    text-align: center;
+}
+#contact p{
+   color: white;
+}
+.contact-col i{
+    font-size: 20px;
+}
+.contact-col a{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+}
+.contact-col a .title{
+    background: wheat;
+    border:2px solid gold;
+}
+.contact-col2 i{
+    font-size: 20px;
+}
+.contact-col2 p{
+    font-size: 15px;
+}
+.contact-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 0px;
+}
+#contact{
+    border:2px solid black;
+    background: rgb(10, 10, 10);
+}
+.contact-col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+}
+.contact-col2 a{
+    color:white !important;
+
+}
+.about-card-top i{
+    background:beige;
+    border-radius: 10px;
+    padding:5px;
+}
+.about-card-top i{  
+    border:3px solid gold;
+}
+.about-card-top i:hover{
+    background: green;
+}

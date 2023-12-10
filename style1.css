@@ -46,10 +46,8 @@ body{
     background: green;
 }
 .top-card-Home{
-    padding:180px 0px;
+    padding:200px 0px;
     height: 100%;
-    /* background-image: url('/images/backgr.jpg');
-    background-repeat: no-repeat; */
     background-size: cover;
     background: black;
 }
@@ -64,7 +62,7 @@ body{
     width:150px;
     border-radius: 20px;
     border:2px solid white;
-    background: burlywood;
+    /* background: burlywood; */
     color:black !important;
 }
 .top-card-Home .btn:hover{
@@ -93,7 +91,7 @@ body{
     text-align: center;
 }
 .img-contain .img-fluid{
-    border:2px solid white;
+    border:5px solid white;
     border-radius: 30px;
 }
 .card-home-left h3 mark{
@@ -128,12 +126,24 @@ body{
     border:2px solid rgb(90, 77, 5);
     border-radius:15px;
     height: 100%;
-    width: 100%;
-    padding:20px;
+    /* width: 100%; */
+    padding:55px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 2s;
+}
+@media screen and (max-width:992px){
+    .top-card-Home h2{
+        font-size: 25px;
+    }
+    .top-card-Home h3{
+        font-size: 25px;
+    }
+    .top-card-Home p{
+        font-size: 20px;
+    }
 }
 .slide h2{
     color:black;
@@ -156,11 +166,12 @@ body{
     color:rgb(240, 70, 70);
     font-size: 50px;
     padding:20px;
-    border:3px solid white;
+    border:3px solid rgb(1, 3, 7);
     border-radius:50%;
 }
 .slide:hover{
     background: rgb(2, 17, 80);
+    transform: rotateY(360deg);
 }
 .slide:hover h6{
     color:white;
@@ -177,28 +188,74 @@ body{
 .slide:hover i{
     background: white;
 }
+@media screen and (max-width:992px){
+    .education-card-top .slide{
+        width:100%;
+    }
+    .education-card-top .slide h2{
+        font-size: 20px;
+        padding:5px 0px;
+    }
+    .education-card-top .slide h5{
+        font-size: 15px;
+    }
+    .education-card-top .slide h6{
+        font-size: 18px;
+    }
+    .education-card-top .slide i{
+        font-size: 30px;
+    }
+    .education-card-top  h1{
+        font-size: 30px;
+        color:red !important;
+    }
+}
 .education-card-top{
-    padding:120px 0px;
-    background: rgb(255, 174, 0);
+    padding:100px 0px;
+    background: #b3b3aad0;
+   
 }
 .progress{
     width:100%;
     height: 20px;
 }
 .education-card-top h1{
-    color:white;
-    text-decoration: underline;
-    text-align: center;
-    padding:20px 0px;
+    color:black;
+    /* border:10px solid black; */
+    padding:10px 50px;
+    background: white;
+    width: fit-content;
+    box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+    -webkit-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+    -moz-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
 }
 .skills-card-top{
     padding:100px 0px;
     background: rgb(3, 70, 58);
 }
+@media screen and (max-width:768px){
+    .skills-card-top .second-row{
+      display: flex;
+      flex-direction: column-reverse;
+      color: red !important;
+    }
+}
+@media screen and (max-width:991px){
+    .skills-card-top .second-row{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
 .skills-card-top h1{
-    color:white;
-    text-align: center;
-    text-decoration: underline;
+    color:black;
+    /* border:10px solid black; */
+    padding:10px 50px;
+    background: white;
+    width: fit-content;
+    box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+-webkit-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+-moz-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+    
 }
 .skills-card-top .row{
     padding:50px 0px;
@@ -212,37 +269,48 @@ body{
     color:white;
     font-size: 20px;
 }
+.skill-col-left p{
+    text-shadow: 10px 15px 40px black;
+}
 .Activities-card-top{
-    background: rgb(255, 153, 153);
+    background: rgb(235, 233, 233);
     padding:100px 0px;
 }
 .Activities-card-top h1{
-    text-align: center;
-    color:white;
-    text-decoration:underline;
+    color:black;
+    /* border:10px solid black; */
+    padding:10px 50px;
+    background: white;
+    width: fit-content;
+    box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+-webkit-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
+-moz-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
 }
+@media screen and (max-width:992px){
+    .Activities-card-top img{ 
+        margin:15px 0px;
+}
+    .modify-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 .act-col-right{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(204, 153, 255);
+    /* background: rgb(104, 103, 105); */
     border-radius: 20px;
     width: 100%;
+    border:3px solid black;
+    box-shadow: 15px 15px 10px black;
 }
-.act-col-right:hover{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(204, 153, 255);
-    border-radius: 20px;
-    width: 100%;
-    border:5px dashed red
-}
-.act-col-right h3{
-    color:gold;
-    padding:0px 20px;
+.act-col-right p{
+    color:black;
+    padding:20px;
+    font-size: 20px;
 }
 .about-card-top{
     padding:0px 0px;

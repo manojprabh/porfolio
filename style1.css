@@ -12,7 +12,7 @@ body{
     position: relative;
 }
 .nabar-top{
-    background: rgb(4, 77, 41);
+    /* background: rgb(4, 77, 41); */
     width: 100%;
     top:0px;
 }
@@ -28,7 +28,7 @@ body{
     color:white;
 }
 .customnabar .nav-item .nav-link{
-    color:rgb(255, 251, 0);
+    color:black;
     font-size: 20px;
     padding:0px 20px;
 }

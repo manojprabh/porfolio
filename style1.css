@@ -49,7 +49,7 @@ body{
     padding:200px 0px;
     height: 100%;
     background-size: cover;
-    background: black;
+  
 }
 .buttons{
     display: flex;
@@ -61,7 +61,7 @@ body{
     padding:10px 10px;
     width:150px;
     border-radius: 20px;
-    border:2px solid white;
+    border:2px solid black;
     /* background: burlywood; */
     color:black !important;
 }
@@ -79,8 +79,31 @@ body{
         margin: 50px auto; /* Center the image */
         animation:  animate__slideInRight; 
   }
+  .top-card-Home h3{
+    font-size: 50px;
+    margin:50px 0px;
+  }
+  /* .top-card-Home span{
+    background: rgb(164, 98, 226);
+    padding:20px;
+  } */
+ .text-animate{
+    /* width: 100px;
+    height: 100px; */
+    background: rgb(232, 248, 6);
+    border:2px solid brown;
+    transition: width 2s, height 4s;
+    padding: 20px 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+ }
+ .text-animate:hover{
+    width: 0px;
+    height: 100px;
+    border:2px solid gold;
+ }
 .top-card-Home h1,h3,h2,p{
-    color:white;
+    color:black;
 }
 .card-home p{
     font-size: 20px;
@@ -313,13 +336,32 @@ body{
     font-size: 20px;
 }
 .about-card-top{
-    padding:0px 0px;
-    margin:0px 0px;
-    background: rgb(10, 10, 10);
+    padding:100px 0px;
+    background: #74746ed0;
+}
+.about-card-top h1{
+    margin:30px 0px;
+}
+.about-card-top h1 mark{
+    background: yellow;
+}
+.about-card-top .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 .about-card-top h3{
     color: blue;
     text-align: center;
+}
+.img-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 #contact p{
    color: white;
@@ -363,14 +405,14 @@ body{
     color:white !important;
 
 }
-.about-card-top i{
+.about-card-top1 i{
     background:beige;
     border-radius: 10px;
     padding:5px;
 }
-.about-card-top i{  
+.about-card-top1 i{  
     border:3px solid gold;
 }
-.about-card-top i:hover{
+.about-card-top1 i:hover{
     background: green;
 }

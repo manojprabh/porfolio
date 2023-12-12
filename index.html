@@ -15,7 +15,7 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" >
     <header class="section-top-card">
-        <div class="nabar-top fixed-top">
+        <div class="nabar-top">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">PORTFOLIO
             </a>
@@ -81,7 +81,8 @@
       <section id="about">
         <div class="about-card-top">
           <div class="container">
-            <div class="row">
+            <div class="about-card-contain">
+              <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 details">
                     <h1><mark>So Who Am I?</mark></h1>
                     <p> I have compeleted Master of computer application in the year 2023 and when i started attend several interviews , came to know that memorizing something and writting exams wont provide job. A job needs a skill so i decided and learnt REACT JS at WeAlwin Technologies Pvt ltd Madurai.</p>
@@ -89,11 +90,11 @@
                   </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="img-about">
-                    <img src="images/ector.svg" class="img-fluid">
+                    <img src="images/human1.png" width="570px" height="225px" class="img-fluid">
                   </div>
                 </div>
             </div>
-            
+            </div>    
           </div>
         </div>
       </section>
@@ -243,12 +244,46 @@
           </div>
         </div>
       </section>
+      <section id="contact-me">
+          <div class="container">
+              <div class="contact-me-contain">
+                <h3 class="text-center">Contact Me..</h3>
+                  <div class="row">
+                      <div class="col-lg-6">
+                        <div class="contact-me-col-left">
+                          <label for="fname">First Name</label>
+                          <br>
+                          <input type="text" id="fname">
+                          <br>
+                          <label for="lname">Last Name</label>
+                          <br>
+                          <input type="text" id="lname"> 
+                          <br>
+                          <label for="email">Email</label>
+                          <br>
+                          <input type="mail" id="email">
+                          <br>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="contact-me-right">
+                          <label for="comments">Comments</label>
+                          <br>
+                          <input type="text" id="comments">
+                          <br>
+                          <button class="btn btn-success my-4">Submit</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
       <section id="contact">
         <div class="container"> 
           <div class="about-card-top1">
               <!-- <h3>let's chat</h3> -->
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="contact-col">
                           <i class="fab fa-whatsapp"></i>
                           <!-- <p>Call me</p> -->
@@ -302,6 +337,10 @@
       $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();   
       });
+      window.scroll({
+        top: targetElement.offsetTop,
+        behavior:"smooth"
+      })
       </script>
   </body>
 </html>

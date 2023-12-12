@@ -168,6 +168,17 @@ body{
         font-size: 20px;
     }
 }
+@media screen and (max-width:576px){
+    .top-card-Home h2{
+        font-size: 25px;
+    }
+    .top-card-Home h3{
+        font-size: 15px;
+    }
+    .top-card-Home p{
+        font-size: 20px;
+    }
+}
 .slide h2{
     color:black;
     text-align: center;

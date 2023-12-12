@@ -139,7 +139,7 @@ body{
 }
 @media  screen and (max-width:576px) {
     .card-home::before{
-        background-image: url('/images/stroke.png');
+        background-image: url('images/stroke.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;

@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portfolio</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" >
@@ -52,27 +53,42 @@
         <div class="top-card-Home">
           <div class="container">
             <div class="card-home">
-              <div class="img-contain d-flex">
-                <img src="images/my_photo.jpeg" class="img-fluid mx-auto" height="110px" width="100px">
-              </div>
-              <div class="card-home-left mx-auto">
-                <h2 class="animate__animated animate__slideInLeft mx-auto">Hi, Im Manoj prabhahar</h2>
-                <h3 class="animate__animated animate__slideInLeft mx-auto">Im a <span class="text-animate">Front End Developer</span></h3>
-                <!-- <p class="mx-auto animate__animated animate__slideInRight">I have completed frontend developer course at WeAlwin Technologies private ltd Madurai and im seeking for front-end Developer role . . .</p> -->
-                <div class="buttons mx-auto">
-                  <div class="animate__animated animate__slideInRight mx-auto">
-                    <a href="/files/My Resume (2) (1).pdf" download="resume.pdf" class="btn btn-light">
-                      <i class="fas fa-arrow-alt-circle-down"></i>
-                      Resume
-                    </a>
-                  </div>
-                  <div class="animate__animated animate__slideInRight mx-auto">
-                    <a class="btn btn-info">
-                      <i class="fab fa-telegram-plane"></i>
-                      Contact
-                    </a>
+              <div class="row">
+                  <div class="col-lg-6">
+                    <div class="text-col" >
+                      <h1 data-aos="fade-right">
+                        Hi, 
+                    </h1>
+                    <h1>
+                      Im a Front End Developer
+                    </h1>
+                    `<button class="btn btn-success">Resume</button>
+                    <div class="icons-contact d-flex  mt-5">
+                      <div class="icons ">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="#" data-toggle="tooltip"  data-placement="left" title="6374994658"></a>
+                      </div>
+                      <div class="icons ">
+                        <i class="fab fa-instagram"></i>
+                        <a href="#" data-toggle="tooltip"  data-placement="left" title="instagram"></a>
+                      </div>
+                      <div class="icons ">
+                        <i class="fab fa-facebook"></i>
+                        <a href="#" data-toggle="tooltip"  data-placement="left" title="6374994658"></a>
+                      </div>
+                      <div class="icons">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="#" data-toggle="tooltip"  data-placement="left" title="manoj-prabhahar-297147213"></a>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="text-col-right">
+
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -83,12 +99,12 @@
           <div class="container">
             <div class="about-card-contain">
               <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 details">
+                <div class="col-lg-6 col-md-6 col-sm-12 details" data-aos="fade-right">
                     <h1><mark>So Who Am I?</mark></h1>
                     <p> I have compeleted Master of computer application in the year 2023 and when i started attend several interviews , came to know that memorizing something and writting exams wont provide job. A job needs a skill so i decided and learnt REACT JS at WeAlwin Technologies Pvt ltd Madurai.</p>
                     <p>I beleive that i will be a good resource and i will provide my outmost skills for the developement the my organization.</p>
                   </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
                   <div class="img-about">
                     <img src="images/human1.png" class="img-fluid">
                   </div>
@@ -104,7 +120,7 @@
             <!-- <h1 class="mx-auto">Education</h1> -->
           <div class="education-card">
             <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex">
+              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex" data-aos="fade-up">
                 <div class="slide">
                   <i class="fas fa-school"></i>
                   <h2>SSLC</h2>
@@ -115,7 +131,7 @@
                   </div> -->
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex">
+              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex" data-aos="fade-up">
                 <div class="slide">
                   <i class="fas fa-school"></i>
                   <h2>Higher Secondary</h2>
@@ -126,7 +142,7 @@
                   </div> -->
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex ">
+              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex" data-aos="fade-up">
                 <div class="slide">
                   <i class="fas fa-graduation-cap"></i>
                   <h2>Under-Graduation</h2>
@@ -137,7 +153,7 @@
                   </div> -->
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex">
+              <div class="col-lg-3 col-md-6 col-sm-12 my-3 d-flex" data-aos="fade-up">
                 <div class="slide">
                   <i class="fas fa-graduation-cap"></i>
                   <h2>Post-Graduation</h2>
@@ -158,10 +174,10 @@
             <div class="container">
               <!-- <h1 class="mx-auto">Skills</h1> -->
               <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6" data-aos="flip-left">
                     <img src="images/html and css.png" height="500px" width="500px" class="img-fluid">
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6" data-aos="flip-left">
                       <div class="skill-col-left">
                         <p class="animate__animated animate__slideInRight my-5"> I have a good knowledge in  HTML and CSS both are considered as the  strong basement of webpage</p>
                       </div>
@@ -333,14 +349,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
+    <script src="script.js"></script>
     <script>
-      $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
-      });
-      window.scroll({
-        top: targetElement.offsetTop,
-        behavior:"smooth"
-      })
-      </script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -59,6 +59,9 @@ body{
     font-size: 70px;
     display: block;
 }
+#mycareer{
+    font-size: 60px;
+}
 .card-home .text-col button{
    border-radius: 10px;
    background: rgb(108, 20, 223);
@@ -72,11 +75,20 @@ body{
 .icons-contact i{
     margin-right:50px; 
 }
+.text-col-right img{
+    border:10px solid rgb(0, 255, 213);
+}
+.text-col{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .buttons{
     display: flex;
     flex-direction: row;
     width: 40%;
-    justify-content: space-evenly   ;
+    justify-content: space-evenly;
 }
 .top-card-Home .btn{
     padding:10px 10px;
@@ -85,13 +97,7 @@ body{
     border:2px solid black;
     color:black !important;
 }
-/* .top-card-Home .btn:hover{
-    padding:10px 10px;
-    width:150px;
-    border-radius: 20px;
-    border:2px solid white;
-    background: burlywood;
-} */
+
 .top-card-Home a{
     color:white !important;
 }
@@ -108,19 +114,7 @@ body{
     font-size: 35px !important;
     text-shadow: 3px -2px 25px rgba(201, 26, 26, 1);
   }
-  /* .top-card-Home span{
-    background: rgb(164, 98, 226);
-    padding:20px;
-  } */
  
-    /* width: 100px;
-    height: 100px; */
-    /* background: rgb(232, 248, 6);
-    border:2px solid brown;
-    transition: width 2s, height 4s;
-    padding: 20px 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px; */
  .text-animate:hover{
     width: 0px;
     height: 100px;
@@ -141,9 +135,9 @@ body{
     /* border:5px solid white; */
     border-radius: 30px;
 }
-/* @media  screen and (max-width:576px) {
+@media  screen and (max-width:576px) {
     .card-home::before{
-        background-image: url('/images/stroke.png');
+        background-image: url('images/stroke.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -155,7 +149,7 @@ body{
         display: none;
         z-index: -1;
     }
-} */
+}
 .card-home h2{
     margin:20px 0px;
 }
@@ -307,8 +301,7 @@ body{
     -moz-box-shadow: 19px 18px 0px -2px rgba(18,5,5,1);
 }
 .skills-card-top{
-    padding:100px 0px;
-    background: rgb(3, 70, 58);
+    background: rgb(13, 182, 151);
 }
 @media screen and (max-width:768px){
     .skills-card-top .second-row{
@@ -349,6 +342,33 @@ body{
 .skill-col-left p{
    
     color: white;
+}
+.work-card-top{
+    padding:130px 0px;
+}
+.work-col{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-col img{
+    border:5px solid black;
+}
+.work-contain a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:white;
+}
+.work-contain button{
+    padding:10px 30px;
+    margin: 30px 0px;
+    width: fit-content;
 }
 .Activities-card-top{
     background: rgb(235, 233, 233);
@@ -391,7 +411,7 @@ body{
     font-size: 20px;
 }
 .about-card-top{
-    padding:100px 0px;
+    padding:130px 0px;
     background: #74746ed0;
 }
 .about-card-top h1{
@@ -416,6 +436,16 @@ body{
     justify-content: center;
     align-items: center;
     height: fit-content;
+}
+.about-card-contain button{
+    color:white;
+    font-size: 15px;
+    width: fit-content;
+    padding: 0px 80px;
+    background: rgb(2, 175, 243);
+    margin:20px 0px;
+    border:2px solid white;
+    border-radius: 10px;
 }
 @media  screen and (max-width:576px) {
     .about-card-contain{
